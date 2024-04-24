@@ -21,7 +21,7 @@ export const UserProgress = ({
       <Link href={"/courses"}>
         <Button variant="ghost">
           <Image
-            src={activeCourse.imageSrc}
+            src={`/flags${activeCourse.imageSrc}`}
             alt={activeCourse.title}
             className="rounded-md border"
             width={32}
