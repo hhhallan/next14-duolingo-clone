@@ -228,7 +228,6 @@ export const Quiz = ({
           </div>
         </div>
       </div>
-      <div className="pt-2 p-4">test</div>
       <Footer
         disabled={pending || !selectedOption}
         status={status}
